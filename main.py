@@ -15,7 +15,7 @@ def main(n=-1, im=-1):
     elif im == 1:
         invariants = imag_quad(n)
         
-    visualize(invariants)
+    visualize(invariants, im)
 
 #### MAIN FUNCTION CODE ####
 if __name__ == "__main__":
