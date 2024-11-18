@@ -16,7 +16,7 @@ def plot_invariants(invariants):
         alpha = K.absolute_generator(); alpha_abs_list.append(alpha.abs())
         dK_list.append(invariants[K][0])
         hK_list.append(invariants[K][1])
-        fu_list.append(eval(abs(invariants[K][2])))
+        fu_list.append(invariants[K][2].abs())
         rK_list.append(invariants[K][3])
 
     # Plot the invariants wrt abs(alpha)
@@ -30,5 +30,5 @@ def plot_invariants(invariants):
     plt.title('Field Invariants wrt abs(alpha), where K = Q(alpha)')
     plt.legend()
     plt.grid(True)
-    plt.savegif("abs_alpha_vs_dK.png")
+    plt.savefig("abs_alpha_vs_dK.png")
     plt.show()
