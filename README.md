@@ -11,6 +11,6 @@ The purpose of this project is to systematically study the properties of real an
 3. **`track_fu_spikes.py`**: This module is meant to track fields where the size of the fundamental unit increases greatly between two fields. It plots the log of the spikes and saves the plot to a file.
 4. **`first_100k_real_fields.json`**: The data from the first 100k real quadratic fields, i.e. Q(sqrt(d)) for the first 100k squarefree integers d.
 5. **`first_100k_imaginary_fields.json`**: The data from the first 100k imaginary quadratic fields, i.e. Q(sqrt(-d)) for the first 100k squarefree integers d.
-6. **invariants_data.json**: The output of the program when `main.py` is run.
+6. **`invariants_data.json`**: The output of the program when `main.py` is run.
 
 
